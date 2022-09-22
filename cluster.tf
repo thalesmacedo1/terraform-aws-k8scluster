@@ -22,12 +22,12 @@ resource "aws_iam_role" "cluster" {
     {
       "Effect": "Allow",
       "Principal": {
-        "Service": "ec2.amazonaws.com"
+        "Service": "eks.amazonaws.com"
       },
       "Action": "sts:AssumeRole"
     }
   ]
-}
+}    
 POLICY
 }
 
