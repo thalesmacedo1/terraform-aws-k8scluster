@@ -1,2 +1,3 @@
-prefix       = "fullcycle"
-cluster_name = "cursofc3"
+prefix         = "fullcycle"
+cluster_name   = "cursofc3"
+retention_days = 30
